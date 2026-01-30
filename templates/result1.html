@@ -1,0 +1,21 @@
+<html>
+
+<h2>
+Final Resuults 
+
+</h2>
+
+<body>
+<table border=2>
+    {% for key,value in results.items() %}
+    <tr>
+        {# Display Score and result #}
+        <td>{{key}}</td>
+        <td>{{value}}</td>
+    </tr>
+
+    {% endfor %}
+
+</body>
+
+</html>
